@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "npx tsc -b && npx vite build",
+    "build": "npm exec tsc -- -b && npm exec vite -- build",
     "dev": "vite",
     "preview": "vite preview"
   },
