@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview"
+  "build": "npx tsc -b && npx vite build",
+  "dev": "vite",
+  "preview": "vite preview"
+}
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
